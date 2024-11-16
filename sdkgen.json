@@ -1,0 +1,9 @@
+{
+  "type": "model-go",
+  "require": {
+    "typehub/typeschema": {
+      "target": "./model",
+      "namespace": "model"
+    }
+  }
+}
