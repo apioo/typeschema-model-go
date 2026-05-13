@@ -1,6 +1,6 @@
 package model
 
-// Base property type
+// The base abstract type for all property definitions within a struct or collection.
 type PropertyType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

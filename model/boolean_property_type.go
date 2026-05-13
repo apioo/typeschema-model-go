@@ -1,6 +1,6 @@
 package model
 
-// Represents a boolean value
+// Represents a true or false value.
 type BooleanPropertyType struct {
     Type string `json:"type"`
     Deprecated bool `json:"deprecated"`

@@ -1,6 +1,6 @@
 package model
 
-// Represents an integer value
+// Represents a whole number.
 type IntegerPropertyType struct {
     Type string `json:"type"`
     Deprecated bool `json:"deprecated"`

@@ -1,6 +1,6 @@
 package model
 
-// A struct represents a class/structure with a fix set of defined properties
+// Represents a fixed-structure object (class/record). It supports inheritance and explicit property definitions.
 type StructDefinitionType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

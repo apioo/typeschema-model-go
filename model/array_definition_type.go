@@ -1,6 +1,6 @@
 package model
 
-// Represents an array which contains a dynamic list of values of the same type
+// An ordered list of values where every item conforms to the same schema.
 type ArrayDefinitionType struct {
     Schema *PropertyType `json:"schema"`
     Type string `json:"type"`

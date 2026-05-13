@@ -1,6 +1,6 @@
 package model
 
-// Represents a map which contains a dynamic set of key value entries of the same type
+// An object with a dynamic set of keys where every value conforms to the same schema.
 type MapDefinitionType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`
