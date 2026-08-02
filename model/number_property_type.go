@@ -1,6 +1,6 @@
 package model
 
-// Represents a floating-point or decimal number.
+// Represents a numeric value, including floating-point and decimal numbers.
 type NumberPropertyType struct {
     Type string `json:"type"`
     Deprecated bool `json:"deprecated"`

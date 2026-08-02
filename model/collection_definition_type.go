@@ -1,6 +1,6 @@
 package model
 
-// Abstract base for definitions that hold multiple values of a single type, such as arrays or maps.
+// The abstract base type for collection definitions that contain multiple elements of a uniform type.
 type CollectionDefinitionType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

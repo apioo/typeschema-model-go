@@ -1,6 +1,6 @@
 package model
 
-// The base abstract type for all schema definitions. It provides metadata common to all types such as descriptions and deprecation status.
+// The abstract base type for all schema definitions. It provides common metadata such as descriptions and deprecation status.
 type DefinitionType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

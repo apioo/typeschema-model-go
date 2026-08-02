@@ -1,6 +1,6 @@
 package model
 
-// Represents a fixed-structure object (class/record). It supports inheritance and explicit property definitions.
+// Represents an object with a fixed set of properties (such as a class or record). Supports inheritance and explicit property typing.
 type StructDefinitionType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

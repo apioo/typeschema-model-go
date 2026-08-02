@@ -1,6 +1,6 @@
 package model
 
-// Abstract base for simple value types like strings, numbers, and booleans.
+// The abstract base type for simple scalar value properties (strings, integers, numbers, booleans).
 type ScalarPropertyType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

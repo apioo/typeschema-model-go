@@ -1,6 +1,6 @@
 package model
 
-// Represents a sequence of characters, optionally following a specific format.
+// Represents a sequence of characters, with optional formatting rules.
 type StringPropertyType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

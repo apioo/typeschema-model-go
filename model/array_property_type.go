@@ -1,6 +1,6 @@
 package model
 
-// A property containing a list of items of a consistent type.
+// Represents a property containing a list of items that share the same schema.
 type ArrayPropertyType struct {
     Schema *PropertyType `json:"schema"`
     Type string `json:"type"`

@@ -1,6 +1,6 @@
 package model
 
-// A property containing a map of dynamic keys to a consistent value type.
+// Represents a property containing a key-value map where all values share the same schema.
 type MapPropertyType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`

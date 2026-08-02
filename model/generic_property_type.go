@@ -1,6 +1,6 @@
 package model
 
-// A placeholder for a type that will be specified at runtime or through template arguments.
+// Represents a generic placeholder type that is resolved at runtime or via template arguments.
 type GenericPropertyType struct {
     Deprecated bool `json:"deprecated"`
     Description string `json:"description"`
